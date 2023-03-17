@@ -1,0 +1,167 @@
+.navBar{
+    display: none;
+    z-index: 11;
+    background-color: white;
+    transition: 0.5s;
+    margin-top: 500px;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+.hburger{
+    display: none;
+    text-decoration: none;
+}
+
+.hburger button{
+    background-color: white;
+    border: none; 
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .body{
+        width: 100%;
+    }
+    .hampburger{
+        display: block;
+    }
+    .cart-options{
+        left: 50px;
+        top: 70px;
+    }
+    .header-top{
+        display:none;
+    }
+    .header-nav-menu{
+        display: none;
+    }
+    .slick{
+        margin-top: 30px;
+    }
+    .myaccount{
+        display: none;
+    }
+    .quickorder{
+        display: none;
+    }
+    .myquote{
+        display: none;
+    }
+    .search-icon::before{
+        display: block;
+    }
+
+    .search-bar-nav{
+        display: none;
+    }
+    .carttext{
+        display:none;
+    }
+    .carticon::before{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .hburger{
+        display: block;
+    }
+    .logo{
+        /* margin-left: -60px; */
+        position: absolute;
+        left: 35px;
+        height: 30px;
+    }
+    .pormobanner{
+        display: block;
+    }
+    .banner-one{
+        height: 200px;
+    }
+    .banner-one img{
+        width: 100%;
+    }
+    .banner-two{
+        margin-left: 0px;
+    }
+    .banner-two img{
+        width: 100%;
+        height: 100%;
+    }
+    .pormobanner-2{
+        display: block;
+    }
+    .subscribe{
+        display: block;
+    }
+    .sub-text{
+        margin-left: 20px;
+    }
+    .email{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .footer-desc{
+        display: block;
+    }
+    .footer-info-1, .footer-info-2, .footer-info-3, .footer-info-4 {
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+    .main-footer-2{
+        display: block;
+    }
+    .follow-us, .payment-method{
+        padding-left: 0px;
+    }
+    .crd{
+        width:250px;
+        margin-left: 25px;
+    }
+    .crd img{
+        width: 100px;
+    }
+    .ofr-text{
+        padding-top: 0px;
+    }
+    .ofr-txt .up{
+        padding-top: 0px;
+    }
+    .crd-link{
+        margin-top: 0px;
+    }
+    .footer-info-1 ul,.footer-info-3 ul,.footer-info-4 ul{
+        display: none;
+    }
+    .follow-us, .payment-method{
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    .social{
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .follow-us-text, .payment-method-text{
+        padding-left: 10px;
+    }
+    .payment-card{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .product-card-1, .product-card-2, .product-card-3, .product-card-4, .product-card-5{
+        width: 140px;
+    }
+    .product-card-img img{
+        width: 120px;
+        height: 200px;
+    }
+    .store-1 img, .store-2 img, .store-3 img, .store-4 img{
+        height: 266px;
+        width: 160px;
+    }
+    .store-1-text, .store-2-text, .store-3-text, .store-4-text{
+        margin-left: -100px;
+    }
+  }
+  
